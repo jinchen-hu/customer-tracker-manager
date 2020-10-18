@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.luv2code</groupId>
-	<artifactId>crm-with-security-jdbc-encryption-authentication</artifactId>
+	<artifactId>customer-tracker-manager</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
 
-	<name>crm-with-security-jdbc-encryption-authentication</name>
+	<name>customer-tracker-manager</name>
 
 	<properties>
 		<springframework.version>5.2.3.RELEASE</springframework.version>
@@ -132,7 +132,7 @@
 	<!-- Add support for Maven WAR Plugin -->
 
 	<build>
-		<finalName>crm-with-security-jdbc-encryption-authentication</finalName>
+		<finalName>customer-tracker-manager</finalName>
 	
 		<pluginManagement>
 			<plugins>
