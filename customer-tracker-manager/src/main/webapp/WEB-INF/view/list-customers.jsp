@@ -110,6 +110,12 @@
 	<p></p>
 		
 	<!-- Add a logout button -->
+	
+	<a href="${pageContext.request.contextPath }/api/customers">SHOW JSON</a>
+	
+	<p></p>
+		
+	<!-- Add a logout button -->
 	<form:form action="${pageContext.request.contextPath}/logout" 
 			   method="POST">
 	
